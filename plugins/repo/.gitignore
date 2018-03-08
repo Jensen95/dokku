@@ -1,2 +1,6 @@
 /commands
 /subcommands/*
+/triggers/*
+/install
+/post-create
+/post-extract
