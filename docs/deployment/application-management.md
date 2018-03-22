@@ -8,10 +8,10 @@ apps:create <app>                              # Create a new app
 apps:destroy <app>                             # Permanently destroy an app
 apps:exists <app>                              # Checks if an app exists
 apps:list                                      # List your apps
-apps:lock                                      # Creates a '.deploy.lock' file in an application's repo
+apps:lock <app>                                # Creates a '.deploy.lock' file in an application's repo
 apps:rename <old-app> <new-app>                # Rename an app
 apps:report [<app>] [<flag>]                   # Display report about an app
-apps:unlock                                    # Removes the '.deploy.lock' file from an application's repo
+apps:unlock <app>                              # Removes the '.deploy.lock' file from an application's repo
 ```
 
 ## Usage
